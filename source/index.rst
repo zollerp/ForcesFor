@@ -1,9 +1,13 @@
-Welcome to the F5 Advanced Web Application Firewall Solutions lab guide 
+Warsaw, Welcome to the ForceFor Lab Guide
 #######################################################################
 
-This series of lab exercises is intended to explain and demonstrate key features of F5 Advanced Web Application Firewall. 
-Our intend is to proviode insights on how to provide demos on the following content:
+The intention of the Lab Guide is to provide you with helpful content to run trough the Lab on your own pace.
+The Lab Guide is not providing a step-by-step exercise as well cover the overall concept of the Lab as well as the path trough the Lab during our session.
 
+A high level diagram for "OWASP Top 10 2021 Declarative Adv.WAF policy lifecycle in CI/CD Pipeline" environment can be found below along with the technologies that are being used on this lab.
+
+.. image:: ./udf-lab.png
+   :align: center
 
 **Getting to Know the Environment**
 	- Module 1: Lab Topology
@@ -16,27 +20,12 @@ Our intend is to proviode insights on how to provide demos on the following cont
 	- Module 3: Threat Campaigns
  	- Module 4: Transparent WAF Policy
 	
-**Class 2 - Elevated WAF Protection**
-	- Module 1: Bot Defense
-	- Module 2: Behavioral DoS
-	- Module 3: DAST Integration
- 	- Module 4: Login Page protection
-
-**Class 3 - Advanced Protection and Positive Security**
-	- Module 1: Leaked Credential Check - Credential Stuffing - FOCUS
-	- Module 2: Check how Device ID+ works - FOCUS
-	- Module 3: Offline Machine Learning - FOCUS
-	- Module 4: Datasafe
-
 To deploy a solution you must be logged into UDF (https://udf.f5.com).
 
 F5ers can access the blueprint directly from UDF without launching a course. 
 
 .. note:: 	If a given topic is not highlighted currently on this page or something is incorrectly documented, please send a Teams Chat to Patrick Zoller.
          	We will do our best to prioritize the development of the content based on demand.
-
-.. image:: ./AWF_index.png
-   :align: center
 
 .. toctree::
    :maxdepth: 2

@@ -4,21 +4,24 @@ Warsaw, Welcome to the ForceFor Lab Guide
 The intention of the Lab Guide is to provide you with helpful content to run trough the Lab on your own pace.
 The Lab Guide is not providing a step-by-step exercise as well cover the overall concept of the Lab as well as the path trough the Lab during our session.
 
-A high level diagram for "OWASP Top 10 2021 Declarative Adv.WAF policy lifecycle in CI/CD Pipeline" environment can be found below along with the technologies that are being used on this lab.
+A high level diagram for "OWASP Top 10 2021 Declarative AWAF policy lifecycle in CI/CD Pipeline" environment can be found below along with the technologies that are being used on this lab.
 
 .. image:: ./udf-lab.png
    :align: center
 
-**Getting to Know the Environment**
-	- Module 1: Lab Topology
-	- Module 2: How to Deploy a Solution
-	- Module 3: N/A
 
-**Class 1 - Getting started with WAF, Bot Detection and Threat Campaigns**
-	- Module 1: IPI & Geolocation Labs
-	- Module 2: Bot Detection Lab
-	- Module 3: Threat Campaigns
- 	- Module 4: Transparent WAF Policy
+**What's the goal of the Lab?**
+
+The goal of the Lab is to understand how a deplyoment of an initial Security Policy Deployment can be automated with the help of GitLab.
+
+In GitLab you start creating a basic policy based on a Rapid Deployment Policy Template with the help of GitLab and push this out to AWAF.
+
+You then enhance the Security Policy in a way to finally got an OWASP Top 10 for 2021 compliant declarative WAF policy for BIG-IP.
+
+Dev Central Article: https://community.f5.com/t5/technical-articles/how-to-deploy-a-basic-owasp-top-10-for-2021-compliant/ta-p/295346
+
+
+
 	
 To deploy a solution you must be logged into UDF (https://udf.f5.com).
 
